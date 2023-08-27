@@ -1,0 +1,62 @@
+/*para modificar el estilo de un elemento se puede llamar un selector
+
+se puede utilizar la etiqueta, el id o la clase
+
+ejemplo:
+para llamar por e id se usa el " # "
+#id{}
+
+para llamar por la clase se una " . "
+.clase{}
+
+se puede llamar directamente la etiqueta
+h1{}
+
+se puede manejar el selector en cacadda3
+ejemplo: si se requiere llamar solo al h1 dentro de un div
+div h1{}
+con esto solo llamo los h1 que estan dentro del div*/
+div{
+    background-color: aqua;
+    /* estilo para afectar el color del fondo */
+    color: purple;
+    /* para definir el color de la fuente 
+    se puede definir con el nombre del color
+    por el codigo hexadecimal ejemplo: #ffffff
+    por el codigo rgb ejemplo: rgb(0,0,0)*/
+}
+div h1{
+    text-align: center;
+
+    /* se utiliza para modificar la alineacion */
+}
+div h5{
+    text-align: end;
+    color:brown;
+}
+div p{
+    text-align: justify;
+}
+#div1{
+    font-size: 8px;
+    /* defini el tamaño de fuente */
+    font-family: 'Comic Sans MS';
+    /* defini el tipo de fuente */
+}
+.cajaPadre{
+    background-color: green;
+    width: 500px;
+    /* para definir el tamaño */
+    height: 500px;
+    display: block;
+    position: relative;
+}
+.cajaHijo{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    display: block;
+    background-color: crimson;
+    width: 100px;
+    height: 100px;
+}
